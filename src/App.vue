@@ -1,10 +1,10 @@
 <template>
   <main class="container-fluid">
-    <section class="row vh-100">
-      <div class="col-lg-4 nav">
+    <section class="row vh-100 content-body">
+      <div class="col-lg-3 col-md-12 nav">
         <Nav />
       </div>
-      <div class="col-lg-8 main">
+      <div class="col-lg-9 col-md-12 main">
         <router-view />
       </div>
     </section>
@@ -34,14 +34,22 @@ export default {
 
 .nav {
   background-color: black;
-  min-height: 100%;
   margin: 0;
   padding: 0;
+  // position: fixed;
+  // width: 30%;
 
   border-right: solid var(--light-gray);
 }
 
 .main {
   background-color: var(--dark-gray);
+  // position: relative;
+  // left: 30%;
+  // width: 70%;
+}
+
+@media(max-width: 1000px) {
+  
 }
 </style>

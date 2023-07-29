@@ -59,4 +59,8 @@ export default {
         font-size: 2.5rem;
         color: white;
     }
+
+    @media(max-width: 1000px) {
+        
+    }
 </style>
