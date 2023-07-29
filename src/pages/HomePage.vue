@@ -56,5 +56,9 @@ export default {
       justify-content: center;
       margin-bottom: 2rem;
     }
+
+    .home-container {
+      height: 100%;
+    }
   }
 </style>

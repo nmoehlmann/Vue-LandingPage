@@ -1,22 +1,24 @@
 <template>
-    <main class="container nav-container flex-column">
+    <main class="container nav-container">
         <section class="row mb-5">
-            <router-link :to="{name: 'Home'}">
-                <div class="nav-link">
-                    <h1>Home</h1>
+            <div class="internal-links-container">
+                <router-link :to="{name: 'Home'}">
+                    <div class="nav-link">
+                        <h1>Home</h1>
+                    </div>
+                </router-link>
+                <router-link :to="{name: 'About'}">
+                    <div class="nav-link">
+                        <h1>About</h1>
+                    </div>
+                </router-link>
+                    <div class="nav-link">
+                        <h1>Projects</h1>
+                    </div>
+                    <div class="nav-link">
+                        <h1>Resume</h1>
+                    </div>
                 </div>
-            </router-link>
-            <router-link :to="{name: 'About'}">
-                <div class="nav-link">
-                    <h1>About</h1>
-                </div>
-            </router-link>
-            <div class="nav-link">
-                <h1>Projects</h1>
-            </div>
-            <div class="nav-link">
-                <h1>Resume</h1>
-            </div>
         </section>
         <section class="row">
             <div class="external-links-container gap-4">
@@ -43,6 +45,7 @@ export default {
         justify-content: center;
         margin-left: 5rem;
         border-right: solid;
+        flex-direction: column;
     }
 
     .nav-link {
@@ -61,6 +64,21 @@ export default {
     }
 
     @media(max-width: 1000px) {
-        
+        .nav-container {
+            display: flex;
+            flex-direction: row;
+            border: none;
+        }
+
+        .internal-links-container {
+            display: flex;
+            flex-direction: row;
+            margin-right: 5rem;
+            padding-top: .25rem
+        }
+
+        .external-links-container {
+            padding-top: .25rem;
+        }
     }
 </style>

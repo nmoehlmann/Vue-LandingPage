@@ -1,7 +1,7 @@
 <template>
   <main class="container-fluid">
     <section class="row vh-100 content-body">
-      <div class="col-lg-3 col-md-12 nav">
+      <div class="col-lg-3 col-md-12 nav sticky-top">
         <Nav />
       </div>
       <div class="col-lg-9 col-md-12 main">
@@ -36,20 +36,35 @@ export default {
   background-color: black;
   margin: 0;
   padding: 0;
-  // position: fixed;
-  // width: 30%;
+  position: fixed;
+  width: 30%;
+  height: 100%;
 
   border-right: solid var(--light-gray);
 }
 
 .main {
   background-color: var(--dark-gray);
-  // position: relative;
-  // left: 30%;
-  // width: 70%;
+  position: relative;
+  left: 30%;
+  width: 70%;
 }
 
 @media(max-width: 1000px) {
-  
+  .nav {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 5%;
+
+    width: 100%;
+  }
+
+  .main {
+    min-height: 100%;
+    left: 0;
+    width: 100%
+  }
 }
 </style>
