@@ -12,13 +12,33 @@
                         <h1>About</h1>
                     </div>
                 </router-link>
+                <router-link :to="{name: 'Projects'}">
                     <div class="nav-link">
                         <h1>Projects</h1>
                     </div>
+                </router-link>
                     <div class="nav-link">
                         <h1>Resume</h1>
                     </div>
+            </div>
+            <div class="internal-links-mobile">
+                <router-link :to="{name: 'Home'}">
+                    <div>
+                        <i class="mdi mdi-home icon"></i>
+                    </div>
+                </router-link>
+                <router-link :to="{name: 'About'}">
+                    <div>
+                        <i class="mdi mdi-account icon"></i>
+                    </div>
+                </router-link>
+                <div>
+                    <i class="mdi mdi-application-brackets icon"></i>
                 </div>
+                <div>
+                    <i class="mdi mdi-script-text-outline icon"></i>
+                </div>
+            </div>
         </section>
         <section class="row">
             <div class="external-links-container gap-4">
@@ -40,6 +60,7 @@ export default {
 
 
 <style lang="scss" scoped>
+
     .nav-container {
         display: flex;
         justify-content: center;
@@ -63,8 +84,13 @@ export default {
         color: white;
     }
 
+    .internal-links-mobile {
+        display: none;
+    }
+
     @media(max-width: 1000px) {
         .nav-container {
+            justify-content: space-between;
             display: flex;
             flex-direction: row;
             border: none;
@@ -74,11 +100,25 @@ export default {
             display: flex;
             flex-direction: row;
             margin-right: 5rem;
-            padding-top: .25rem
+            padding-top: .25rem;
+
+            display: none;
+        }
+
+        .internal-links-mobile {
+            display: flex;
+            flex-direction: row;
+            color: whitesmoke;
         }
 
         .external-links-container {
             padding-top: .25rem;
+        }
+
+        .icon {
+            color: whitesmoke;
+            font-size: 3rem;
+            margin-right: 2rem;
         }
     }
 </style>
