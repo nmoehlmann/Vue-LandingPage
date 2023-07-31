@@ -6,13 +6,14 @@
             </div>
         </section>
         <section class="row">
-            <div class="col-xxl-6 d-flex p-container">
+            <div class="col-xxl-5 d-flex p-container">
                 <div class="compass-background">
                     <div class="cooking-compass-container">
                         <img class="cooking-compass" src="src/assets/img/cooking-compass.svg" alt="">
                     </div>
                 </div>
             </div>
+            <div class="divider"></div>
             <div class="col-6">
                 <div class="header">
                     <h1>Cooking Compass</h1>
@@ -64,8 +65,27 @@ export default {
 
     .p-container {
         display: flex;
-        justify-content: center;
+        // justify-content: center;
         margin-bottom: 1.5rem;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    @media(max-width: 2000px) {
+        .divider {
+            display: flex;
+        }
+
+        .p-container {
+            justify-content: center;
+        }
+
+        .row {
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
     }
     .header {
         margin-top: 1rem;
