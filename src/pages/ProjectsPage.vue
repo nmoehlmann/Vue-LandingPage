@@ -13,6 +13,21 @@
                     </div>
                 </div>
             </div>
+            <div class="col-6">
+                <div class="header">
+                    <h1>Cooking Compass</h1>
+                </div>
+                <article class="text-body">
+                    <p>Have you ever wondered what meals you could make with the food you currently had in your pantry?</p>
+                    <ul>
+                        <li>Add and remove food items from your pantry</li>
+                        <li>Get recommended recipes based on your pantry</li>
+                        <li>Shop for </li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+        <section class="row">
             <div class="col-xxl-6 p-container">
                 <div class="allSpice-background">
                     <div class="allSpice-logo-container">
@@ -20,6 +35,8 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="row">
             <div class="col-xxl-6 p-container">
                 <div class="keepr-background">
                     <div class="keepr-logo-container">
@@ -43,10 +60,21 @@ export default {
 
 <style lang="scss" scoped>
 
+    // Misc
+
+    .p-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+    }
     .header {
         margin-top: 1rem;
         margin-bottom: 1rem;
         color: white
+    }
+
+    .text-body p, ul{
+        color: white;
     }
 
     // Keepr
@@ -129,9 +157,4 @@ export default {
         align-items: center;
     }
 
-    .p-container {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 1.5rem;
-    }
 </style>
