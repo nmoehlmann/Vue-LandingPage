@@ -16,34 +16,76 @@
             <div class="divider"></div>
             <div class="col-6">
                 <div class="header">
-                    <h1>Cooking Compass</h1>
+                    <h1 class="">Cooking Compass</h1>
                 </div>
+                <div class="underline"></div>
                 <article class="text-body">
+                    <h2 class="mb-4 text-light">Description</h2>
                     <p>Have you ever wondered what meals you could make with the food you currently had in your pantry?</p>
+                    <div class="underline"></div>
+                    <h2 class="text-light mb-4">Features</h2>
                     <ul>
                         <li>Add and remove food items from your pantry</li>
                         <li>Get recommended recipes based on your pantry</li>
-                        <li>Shop for </li>
+                        <li>Shop for ingredients with built in grocery list</li>
                     </ul>
                 </article>
             </div>
         </section>
         <section class="row">
-            <div class="col-xxl-6 p-container">
+            <div class="col-xxl-5 p-container">
                 <div class="allSpice-background">
                     <div class="allSpice-logo-container">
                         <p class="allSpice-logo">All Spice</p>
                     </div>
                 </div>
             </div>
+            <div class="divider"></div>
+            <div class="col-6">
+                <div class="header">
+                    <h1 class="">All Spice</h1>
+                </div>
+                <div class="underline"></div>
+                <article class="text-body">
+                    <h2 class="mb-4 text-light">Description</h2>
+                    <p>Spice up your life by making and sharing recipes with others. If you like a recipe, favorite it and save it for later!</p>
+                    <div class="underline"></div>
+                    <h2 class="text-light mb-4">Features</h2>
+                    <ul>
+                        <li>Create your own recipes including ingredients, instructions, and pictures.</li>
+                        <li>Search specific recipes using the search bar.</li>
+                        <li>view and favorite created recipes.</li>
+                        <!-- <li>Use filter on homepage to view your own or favorited recipes</li> -->
+                    </ul>
+                </article>
+            </div>
         </section>
         <section class="row">
-            <div class="col-xxl-6 p-container">
+            <div class="col-xxl-5 p-container">
                 <div class="keepr-background">
                     <div class="keepr-logo-container">
                         <img class="keepr-logo" src="src/assets/img/Keepr-logo.png" alt="">
                     </div>
                 </div>
+            </div>
+            <div class="divider"></div>
+            <div class="col-6">
+                <div class="header">
+                    <h1 class="">Keepr</h1>
+                </div>
+                <div class="underline"></div>
+                <article class="text-body">
+                    <h2 class="mb-4 text-light">Description</h2>
+                    <p>Keepr is an application that allows its users to view, save, and create vaults and keeps</p>
+                    <div class="underline"></div>
+                    <h2 class="text-light mb-4">Features</h2>
+                    <ul>
+                        <li>Create a keep with an image and description. Other people can save your keep into their own vault.</li>
+                        <li>Create a vault that can store keeps created by others or yourself.</li>
+                        <li>Make your vault private so others cant see it or the keeps stored inside.</li>
+                        <li>Edit your keeps, vaults, and even your own profile!</li>
+                    </ul>
+                </article>
             </div>
         </section>
     </main>
@@ -62,6 +104,12 @@ export default {
 <style lang="scss" scoped>
 
     // Misc
+
+    .underline {
+        border-bottom: solid var(--unselected);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
 
     .p-container {
         display: flex;
@@ -95,6 +143,7 @@ export default {
 
     .text-body p, ul{
         color: white;
+        font-size: 1.5rem;
     }
 
     // Keepr
