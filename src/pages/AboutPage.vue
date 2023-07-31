@@ -1,8 +1,8 @@
 <template>
   <main class="container">
-    <section class="row">
+    <!-- <section class="row">
       <img class="about-img" src="https://placehold.co/600x400" alt="">
-    </section>
+    </section> -->
     <section class="row mt-5">
       <h1 class="hello-header">Hello!</h1>
     </section>
@@ -32,6 +32,25 @@
         </div>
       </div>
     </section>
+    <section class="row">
+      <div class="col-6 education">
+        <p class="header">Education</p>
+        <p>Boise CodeWorks</p>
+        <ul class="education-list">
+          <li>Immersive Full Stack</li>
+          <li>April 24, 2023 - July 28, 2023</li>
+        </ul>
+      </div>
+      <div class="col-6 experience">
+        <p class="header">Experience</p>
+        <p>CodeWorks</p>
+        <ul class="experience-list">
+          <li>Over 450 hours of hands on coding</li>
+          <li>Built a multitude of full stack applications</li>
+          <li>Created an application that talks to multiple external APIs and its own.</li>
+        </ul>
+      </div>
+    </section>
   </main>
 </template>
 
@@ -46,6 +65,26 @@ export default {
 </script>
 
 <style lang="scss">
+
+  .experience-list {
+    font-size: 1.5rem;
+  }
+
+  .experience {
+    color: whitesmoke;
+    font-size: 2rem;
+  }
+
+  .education-list {
+    color: whitesmoke;
+    font-size: 1.5rem;
+  }
+
+  .education {
+    color: whitesmoke;
+    font-size: 2rem;
+  }
+
   .hello-header {
     font-size: 5rem;
     color: whitesmoke;
@@ -65,6 +104,9 @@ export default {
   .contact {
     display: flex;
     font-size: 1.5rem;
+
+    border-bottom: solid var(--light-gray);
+    margin-bottom: 1rem;
   }
 
   .bio {
@@ -81,5 +123,8 @@ export default {
   .skills {
     color: whitesmoke;
     font-size: 1.5rem;
+
+    border-bottom: solid var(--light-gray);
+    margin-bottom: 1rem;
   }
 </style>

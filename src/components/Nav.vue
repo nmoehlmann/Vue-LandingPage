@@ -17,9 +17,11 @@
                         <h1>Projects</h1>
                     </div>
                 </router-link>
+                <router-link :to="{name: 'Resume'}">
                     <div class="nav-link">
                         <h1>Resume</h1>
                     </div>
+                </router-link>
             </div>
             <div class="internal-links-mobile">
                 <router-link :to="{name: 'Home'}">
