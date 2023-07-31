@@ -1,5 +1,9 @@
 <template>
-    <h1>hi</h1>
+    <main class="container-fluid">
+        <section class="row">
+            <iframe class="resume" src="src/assets/pdf/My Resume Rough Draft.pdf" frameborder="0"></iframe>
+        </section>
+    </main>
 </template>
 
 
@@ -13,5 +17,8 @@ export default {
 
 
 <style lang="scss" scoped>
-
+    .resume {
+        width: 100%;
+        height: 975px;
+    }
 </style>
