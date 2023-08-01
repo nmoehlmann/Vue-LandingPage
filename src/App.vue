@@ -53,12 +53,11 @@ export default {
 @media(max-width: 1000px) {
   .nav {
     background-color: black;
-    margin: 0;
     padding: 0;
     border: none;
-    height: 5%;
-
+    height: 10%;
     width: 100%;
+    justify-content: center;
   }
 
   .main {

@@ -14,7 +14,7 @@
       </article>
     </section>
     <section class="row">
-      <div class="col-6 skills">
+      <div class="col-md-6 skills">
         <p class="header">Knowledge</p>
         <li>Vue <i class="mdi mdi-vuejs"></i></li>
         <li>Node <i class="mdi mdi-nodejs"></i></li>
@@ -22,7 +22,7 @@
         <li>C# <i class="mdi mdi-dot-net"></i></li>
         <li>HTML <i class="mdi mdi-language-html5"></i> / CSS <i class="mdi mdi-language-css3"></i></li>
       </div>
-      <div class="col-6 text-light contact">
+      <div class="col-md-6 text-light contact">
         <div>
           <p class="header">Contact</p>
           <p><span class="fw-bold">Age:</span> 20</p>
@@ -33,7 +33,7 @@
       </div>
     </section>
     <section class="row">
-      <div class="col-6 education">
+      <div class="col-md-6 education">
         <p class="header">Education</p>
         <p>Boise CodeWorks</p>
         <ul class="education-list">
@@ -66,6 +66,12 @@ export default {
 
 <style lang="scss">
 
+  @media(max-width: 766px) {
+    .education {
+      border-bottom: solid var(--light-gray)
+    }
+  }
+
   .experience-list {
     font-size: 1.5rem;
   }
@@ -89,6 +95,7 @@ export default {
     font-size: 5rem;
     color: whitesmoke;
     margin-bottom: 2rem;
+    margin-top: 2rem;
   }
   .about-img {
     height: 50rem;

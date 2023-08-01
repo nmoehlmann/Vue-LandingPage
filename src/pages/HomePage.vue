@@ -51,6 +51,13 @@ export default {
       height: 50rem;
     }
 
+  @media(max-width: 764px) {
+    .my-img {
+      margin-top: 8rem;
+      height: 30rem;
+    }
+  }
+
     .img-container {
       display: flex;
       justify-content: center;
@@ -59,6 +66,18 @@ export default {
 
     .home-container {
       height: 100%;
+    }
+  }
+
+  @media(max-width: 715px) {
+    .greeting {
+      font-size: 5rem;
+    }
+  }
+
+  @media(max-width: 465px) {
+    .greeting {
+      font-size: 3rem;
     }
   }
 </style>

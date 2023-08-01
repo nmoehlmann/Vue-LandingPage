@@ -3,22 +3,22 @@
         <section class="row mb-5">
             <div class="internal-links-container">
                 <router-link :to="{name: 'Home'}">
-                    <div class="nav-link">
+                    <div class="nav-link-li">
                         <h1>Home</h1>
                     </div>
                 </router-link>
                 <router-link :to="{name: 'About'}">
-                    <div class="nav-link">
+                    <div class="nav-link-li">
                         <h1>About</h1>
                     </div>
                 </router-link>
                 <router-link :to="{name: 'Projects'}">
-                    <div class="nav-link">
+                    <div class="nav-link-li">
                         <h1>Projects</h1>
                     </div>
                 </router-link>
                 <router-link :to="{name: 'Resume'}">
-                    <div class="nav-link">
+                    <div class="nav-link-li">
                         <h1>Resume</h1>
                     </div>
                 </router-link>
@@ -34,18 +34,22 @@
                         <i class="mdi mdi-account icon"></i>
                     </div>
                 </router-link>
-                <div>
-                    <i class="mdi mdi-application-brackets icon"></i>
-                </div>
-                <div>
-                    <i class="mdi mdi-script-text-outline icon"></i>
-                </div>
+                <router-link :to="{name: 'Projects'}">
+                    <div>
+                        <i class="mdi mdi-application-brackets icon"></i>
+                    </div>
+                </router-link>
+                <router-link :to="{name: 'Resume'}">
+                    <div>
+                        <i class="mdi mdi-script-text-outline icon"></i>
+                    </div>
+                </router-link>
             </div>
         </section>
         <section class="row">
             <div class="external-links-container gap-4">
-                <i class="mdi mdi-linkedin external-link"></i>
-                <i class="mdi mdi-github external-link"></i>
+                <a target="_blank" href="https://www.linkedin.com/in/nathan-moehlmann-557431246/"><i class="mdi mdi-linkedin external-link"></i></a>
+                <a target="_blank" href="https://github.com/nmoehlmann"><i class="mdi mdi-github external-link"></i></a>
             </div>
         </section>
     </main>
@@ -71,7 +75,7 @@ export default {
         flex-direction: column;
     }
 
-    .nav-link {
+    .nav-link-li {
         color: white;
         cursor: pointer;
         margin-bottom: 2rem;
@@ -92,10 +96,11 @@ export default {
 
     @media(max-width: 1000px) {
         .nav-container {
-            justify-content: space-between;
+            justify-content: center;
             display: flex;
             flex-direction: row;
             border: none;
+            margin: 0;
         }
 
         .internal-links-container {
@@ -114,7 +119,7 @@ export default {
         }
 
         .external-links-container {
-            padding-top: .25rem;
+            display: none;
         }
 
         .icon {

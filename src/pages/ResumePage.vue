@@ -1,8 +1,6 @@
 <template>
-    <main class="container-fluid">
-        <section class="row">
-            <iframe class="resume" src="src/assets/pdf/My Resume Rough Draft.pdf" frameborder="0"></iframe>
-        </section>
+    <main>
+        <iframe class="resume vh-100" src="src/assets/pdf/MyResume.pdf" frameborder="0"></iframe>
     </main>
 </template>
 
@@ -19,6 +17,15 @@ export default {
 <style lang="scss" scoped>
     .resume {
         width: 100%;
-        height: 975px;
+    }
+
+    @media(max-width: 1000px) {
+        main {
+            margin-top: 10rem;
+        }
+
+        .resume {
+            width: 100%
+        }
     }
 </style>

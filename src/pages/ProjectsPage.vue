@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="divider"></div>
-            <div class="col-6">
+            <div class="col-12 col-xxl-6">
                 <div class="header">
                     <h1 class="">Cooking Compass</h1>
                 </div>
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="divider"></div>
-            <div class="col-6">
+            <div class="col-12 col-xxl-6">
                 <div class="header">
                     <h1 class="">All Spice</h1>
                 </div>
@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class="divider"></div>
-            <div class="col-6">
+            <div class="col-12 col-xxl-6">
                 <div class="header">
                     <h1 class="">Keepr</h1>
                 </div>
@@ -135,6 +135,7 @@ export default {
             margin-bottom: 2rem;
         }
     }
+
     .header {
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -155,6 +156,12 @@ export default {
         height: 35rem;
         aspect-ratio: 1/1;
         border-radius: 10px;
+    }
+
+    @media(max-width: 625px) {
+        .keepr-background {
+            height: 25rem;
+        }
     }
 
     .keepr-logo {
@@ -180,6 +187,12 @@ export default {
         height: 35rem;
         aspect-ratio: 1/1;
         border-radius: 10px;
+    }
+
+    @media(max-width: 625px) {
+        .allSpice-background {
+            height: 25rem;
+        }
     }
 
     .allSpice-logo {
@@ -208,6 +221,12 @@ export default {
         height: 35rem;
         aspect-ratio: 1/1;
         border-radius: 10px;
+    }
+
+    @media(max-width: 625px) {
+        .compass-background {
+            height: 25rem;
+        }
     }
 
     .cooking-compass {
