@@ -2,7 +2,7 @@
   <main class="container home-container flex-column">
     <section class="row">
       <div class="col-xxl-4 img-container">
-        <img class="img-fluid my-img" src="src/assets/img/me.JPG" alt="">
+        <img class="img-fluid my-img" src="src/assets/img/me.png" alt="">
       </div>
       <div class="col-xxl-8 d-flex flex-column text-body gap-4">
         <h1 class="greeting">Nathan <br> Moehlmann</h1>
