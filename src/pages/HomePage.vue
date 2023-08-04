@@ -3,7 +3,7 @@
     <section class="row">
       <div class="col-xxl-4 img-container">
         <!-- <img class="img-fluid my-img" src="src/assets/img/me.png" alt=""> -->
-        <img class="img-fluid my-img" src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+        <img class="img-fluid my-img" src="/me.png" alt="">
       </div>
       <div class="col-xxl-8 d-flex flex-column text-body gap-4">
         <h1 class="greeting">Nathan <br> Moehlmann</h1>
