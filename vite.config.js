@@ -21,5 +21,5 @@ export default defineConfig({
     port: 8080
   },
   // testing
-  assetsInclude: ['cooking-background.JPG']
+  assetsInclude: ['cooking-compass.svg'],
 })

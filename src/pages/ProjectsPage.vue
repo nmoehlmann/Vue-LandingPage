@@ -9,7 +9,9 @@
             <div class="col-xxl-5 d-flex p-container">
                 <div class="compass-background">
                     <div class="cooking-compass-container">
-                        <img class="cooking-compass" src="src/assets/img/cooking-compass.svg" alt="">
+                        <!-- testing -->
+                        <img class="cooking-compass" src="/cooking-compass.svg" alt="">
+                        <!-- <img class="cooking-compass" src="docs/assets/cooking-compass.svg" alt=""> -->
                     </div>
                 </div>
             </div>
@@ -64,7 +66,7 @@
             <div class="col-xxl-5 p-container">
                 <div class="keepr-background">
                     <div class="keepr-logo-container">
-                        <img class="keepr-logo" src="src/assets/img/Keepr-logo.png" alt="">
+                        <img class="keepr-logo" src="/keepr-logo.png" alt="">
                     </div>
                 </div>
             </div>
