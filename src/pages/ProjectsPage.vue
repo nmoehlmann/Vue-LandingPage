@@ -152,7 +152,7 @@ export default {
     // Keepr
 
     .keepr-background {
-        background-image: url(src/assets/img/masonry.jpg);
+        background-image: url(/masonry.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         height: 35rem;
@@ -183,7 +183,7 @@ export default {
 
     // All Spice
     .allSpice-background {
-        background-image: url(src/assets/img/food-img.avif);
+        background-image: url(/food-img.avif);
         background-size: cover;
         background-repeat: no-repeat;
         height: 35rem;
@@ -217,7 +217,7 @@ export default {
 
     // cooking compass
     .compass-background {
-        background-image: url(src/assets/img/cooking-background.jpg);
+        background-image: url(/cooking-background.JPG);
         background-size: cover;
         background-repeat: no-repeat;
         height: 35rem;
