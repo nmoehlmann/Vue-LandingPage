@@ -4,14 +4,14 @@ import { defineConfig } from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(
-    // testing
-    {
-      template: {
-        transformAssetUrls: {
-          includeAbsolute: false
-        }
-      }
-    }
+    // so vite tries to find images externally
+    // {
+    //   template: {
+    //     transformAssetUrls: {
+    //       includeAbsolute: false
+    //     }
+    //   }
+    // }
   )],
   build: {
     outDir: 'docs',
@@ -19,5 +19,7 @@ export default defineConfig({
   },
   server: {
     port: 8080
-  }
+  },
+  // testing
+  assetsInclude: ['cooking-background.JPG']
 })
