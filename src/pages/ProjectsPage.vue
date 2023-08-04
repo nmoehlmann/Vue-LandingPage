@@ -66,7 +66,7 @@
             <div class="col-xxl-5 p-container">
                 <div class="keepr-background">
                     <div class="keepr-logo-container">
-                        <img class="keepr-logo" src="/keepr-logo.png" alt="">
+                        <img class="keepr-logo" src="/Keepr-logo.png" alt="">
                     </div>
                 </div>
             </div>
