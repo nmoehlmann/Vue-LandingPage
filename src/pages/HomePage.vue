@@ -1,12 +1,12 @@
 <template>
-  <main class="container home-container flex-column">
+  <main class="container home-container flex-column slideInLeft">
     <section class="row">
       <div class="col-xxl-4 img-container">
         <!-- <img class="img-fluid my-img" src="src/assets/img/me.png" alt=""> -->
-        <img class="img-fluid my-img" src="/me.png" alt="">
+        <img class="img-fluid my-img" src="/meColored.jpg" alt="">
       </div>
       <div class="col-xxl-8 d-flex flex-column text-body gap-4">
-        <h1 class="greeting">Nathan <br> Moehlmann</h1>
+        <h1 class="greeting"><span class="neon">N</span>athan <br> <span class="neon">M</span>oehlmann</h1>
         <p class="about-text">Software Developer with a passion for lifelong learning, problem solving, and self improvement.</p>
       </div>
     </section>
@@ -22,6 +22,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
   h1, p {
     margin: 0;
     padding: 0;

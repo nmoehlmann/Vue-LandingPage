@@ -6,7 +6,7 @@
             </div>
         </section>
         <section class="row">
-            <div class="col-xxl-5 d-flex p-container">
+            <div class="col-xxl-5 d-flex p-container slideInLeft">
                 <div class="compass-background">
                     <div class="cooking-compass-container">
                         <!-- testing -->
@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="divider"></div>
-            <div class="col-12 col-xxl-6">
+            <div class="col-12 col-xxl-6 fadeIn">
                 <div class="header">
                     <h1 class="">Cooking Compass</h1>
                 </div>
@@ -35,7 +35,7 @@
             </div>
         </section>
         <section class="row">
-            <div class="col-xxl-5 p-container">
+            <div class="col-xxl-5 p-container slideInLeft">
                 <div class="allSpice-background">
                     <div class="allSpice-logo-container">
                         <p class="allSpice-logo">All Spice</p>
@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div class="divider"></div>
-            <div class="col-12 col-xxl-6">
+            <div class="col-12 col-xxl-6 fadeIn">
                 <div class="header">
                     <h1 class="">All Spice</h1>
                 </div>
@@ -63,7 +63,7 @@
             </div>
         </section>
         <section class="row">
-            <div class="col-xxl-5 p-container">
+            <div class="col-xxl-5 p-container slideInLeft">
                 <div class="keepr-background">
                     <div class="keepr-logo-container">
                         <img class="keepr-logo" src="/Keepr-logo.png" alt="">
@@ -71,7 +71,7 @@
                 </div>
             </div>
             <div class="divider"></div>
-            <div class="col-12 col-xxl-6">
+            <div class="col-12 col-xxl-6 fadeIn">
                 <div class="header">
                     <h1 class="">Keepr</h1>
                 </div>

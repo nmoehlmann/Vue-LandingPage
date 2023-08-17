@@ -4,17 +4,17 @@
       <img class="about-img" src="https://placehold.co/600x400" alt="">
     </section> -->
     <section class="row mt-5">
-      <h1 class="hello-header">Hello!</h1>
+      <h1 class="hello-header slideInLeft">Hello!</h1>
     </section>
     <section class="row">
-      <article class="col-12 text-light bio">
+      <article class="col-12 text-light bio fadeIn">
         <p>
           I am a Software Developer with extensive experience in both front and backend. I love working on complex projects that require methodical planning and execution. Solving difficult problems is what Software Development is all about, and that's what I'm here for. Outside of coding, I enjoy playing piano, videogames, and working out.
         </p>
       </article>
     </section>
     <section class="row">
-      <div class="col-md-6 skills">
+      <div class="col-md-6 skills slideInLeftSkills">
         <p class="header">Knowledge</p>
         <li>Vue <i class="mdi mdi-vuejs"></i></li>
         <li>Node <i class="mdi mdi-nodejs"></i></li>
@@ -22,7 +22,7 @@
         <li>C# <i class="mdi mdi-dot-net"></i></li>
         <li>HTML <i class="mdi mdi-language-html5"></i> / CSS <i class="mdi mdi-language-css3"></i></li>
       </div>
-      <div class="col-md-6 text-light contact">
+      <div class="col-md-6 text-light contact slideInLeftContact">
         <div>
           <p class="header">Contact</p>
           <p><span class="fw-bold">Age:</span> 20</p>
@@ -33,7 +33,7 @@
       </div>
     </section>
     <section class="row">
-      <div class="col-md-6 education">
+      <div class="col-md-6 education slideInLeftEducation">
         <p class="header">Education</p>
         <p>Boise CodeWorks</p>
         <ul class="education-list">
@@ -41,7 +41,7 @@
           <li>April 24, 2023 - July 28, 2023</li>
         </ul>
       </div>
-      <div class="col-6 experience">
+      <div class="col-6 experience slideInLeftExperience">
         <p class="header">Experience</p>
         <p>CodeWorks</p>
         <ul class="experience-list">
@@ -65,6 +65,24 @@ export default {
 </script>
 
 <style lang="scss">
+
+  .slideInLeftSkills {
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+  }
+
+  .slideInLeftContact {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+  }
+  .slideInLeftEducation {
+    animation-name: fadeIn;
+    animation-duration: 2.5s;
+  }
+  .slideInLeftExperience {
+    animation-name: fadeIn;
+    animation-duration: 3s;
+  }
 
   @media(max-width: 766px) {
     .education {
@@ -93,7 +111,7 @@ export default {
 
   .hello-header {
     font-size: 5rem;
-    color: whitesmoke;
+    color: #05D9FF;
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
@@ -103,7 +121,7 @@ export default {
   }
 
   .header {
-    color: whitesmoke;
+    color: #05D9FF;
     font-size: 3rem;
     margin-bottom: 2rem;
   }

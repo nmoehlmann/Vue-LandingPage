@@ -4,6 +4,10 @@
 @import "./_utilities.scss";
 @import "./loaders.scss";
 
+.neon {
+  color: #05D9FF;
+}
+
 body{
   overscroll-behavior: none;
 }
@@ -46,4 +50,38 @@ form:invalid button[type="submit"] {
   --dark-gray: #111111;
   --unselected: #b2b2b2;
   --selected: #f1f1f1;
+  --neon-green: #39FF14;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 100;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+}
+
+.slideInLeft {
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
 }

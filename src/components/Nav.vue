@@ -67,6 +67,16 @@ export default {
 
 <style lang="scss" scoped>
 
+    h1 {
+        transition: 0.3s ease 0s;
+    }
+
+    h1:hover {
+        font-size: 2.7rem;
+        letter-spacing: .2rem;
+        color: #05D9FF;
+    }
+
     .nav-container {
         display: flex;
         justify-content: center;
@@ -90,6 +100,18 @@ export default {
         color: white;
     }
 
+    a {
+        transition: transform 0.3s ease 0s;
+    }
+
+    a:hover {
+        transform: translateY(-8px)
+    }
+
+    a .external-link:hover {
+        color: #05D9FF;
+        transition: all .3s ease;
+    }
     .internal-links-mobile {
         display: none;
     }
