@@ -6,8 +6,8 @@
         <img class="img-fluid my-img" src="/meColored.jpg" alt="">
       </div>
       <div class="col-xxl-8 d-flex flex-column text-body gap-4">
-        <h1 class="greeting"><span class="neon">N</span>athan <br> <span class="neon">M</span>oehlmann</h1>
-        <p class="about-text">Software Developer with a passion for lifelong learning, problem solving, and self improvement.</p>
+        <h1 class="greeting font-raleway"><span class="neon">N</span>athan <br> <span class="neon">M</span>oehlmann</h1>
+        <p class="about-text font-raleway">Software Developer with a passion for lifelong learning, problem solving, and self improvement.</p>
       </div>
     </section>
   </main>

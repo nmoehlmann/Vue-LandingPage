@@ -105,6 +105,16 @@ export default {
 
 <style lang="scss" scoped>
 
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        color: #05D9FF;
+    }
+
+    h2, p, li {
+        font-family: 'Oswald', sans-serif;
+    }
+
     // Misc
 
     .underline {

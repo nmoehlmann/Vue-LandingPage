@@ -4,22 +4,22 @@
             <div class="internal-links-container">
                 <router-link :to="{name: 'Home'}">
                     <div class="nav-link-li">
-                        <h1>Home</h1>
+                        <h1 class="font-oswald">Home</h1>
                     </div>
                 </router-link>
                 <router-link :to="{name: 'About'}">
                     <div class="nav-link-li">
-                        <h1>About</h1>
+                        <h1 class="font-oswald">About</h1>
                     </div>
                 </router-link>
                 <router-link :to="{name: 'Projects'}">
                     <div class="nav-link-li">
-                        <h1>Projects</h1>
+                        <h1 class="font-oswald">Projects</h1>
                     </div>
                 </router-link>
                 <router-link :to="{name: 'Resume'}">
                     <div class="nav-link-li">
-                        <h1>Resume</h1>
+                        <h1 class="font-oswald">Resume</h1>
                     </div>
                 </router-link>
             </div>
@@ -98,6 +98,10 @@ export default {
         color: white;
         cursor: pointer;
         margin-bottom: 2rem;
+    }
+
+    .nav-link-li h1 {
+        font-size: 3.5rem;
     }
 
     .external-links-container {

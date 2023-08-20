@@ -4,18 +4,18 @@
       <img class="about-img" src="https://placehold.co/600x400" alt="">
     </section> -->
     <section class="row mt-5">
-      <h1 class="hello-header slideInLeft">Hello!</h1>
+      <h1 class="hello-header slideInLeft font-raleway">Hello!</h1>
     </section>
     <section class="row">
       <article class="col-12 text-light bio fadeIn">
-        <p>
+        <p class="font-raleway">
           I am a Software Developer with extensive experience in both front and backend. I love working on complex projects that require methodical planning and execution. Solving difficult problems is what Software Development is all about, and that's what I'm here for. Outside of coding, I enjoy playing piano, videogames, and working out.
         </p>
       </article>
     </section>
     <section class="row">
       <div class="col-md-6 skills slideInLeftSkills">
-        <p class="header">Knowledge</p>
+        <p class="header font-raleway">Knowledge</p>
         <li>Vue <i class="mdi mdi-vuejs"></i></li>
         <li>Node <i class="mdi mdi-nodejs"></i></li>
         <li>SQL <i class="mdi mdi-database-search"></i></li>
@@ -24,8 +24,7 @@
       </div>
       <div class="col-md-6 text-light contact slideInLeftContact">
         <div>
-          <p class="header">Contact</p>
-          <p><span class="fw-bold">Age:</span> 20</p>
+          <p class="header font-raleway">Contact</p>
           <p><span class="fw-bold">Education:</span> Boise CodeWorks</p>
           <p><span class="fw-bold">Email:</span> nathan.moehlmann@gmail.com</p>
           <p><span class="fw-bold">phone:</span> 208-697-7595</p>
@@ -34,7 +33,7 @@
     </section>
     <section class="row">
       <div class="col-md-6 education slideInLeftEducation">
-        <p class="header">Education</p>
+        <p class="header font-raleway">Education</p>
         <p>Boise CodeWorks</p>
         <ul class="education-list">
           <li>Immersive Full Stack</li>
@@ -42,7 +41,7 @@
         </ul>
       </div>
       <div class="col-md-6 experience slideInLeftExperience">
-        <p class="header">Experience</p>
+        <p class="header font-raleway">Experience</p>
         <p>CodeWorks</p>
         <ul class="experience-list">
           <li>Over 450 hours of hands on coding</li>
@@ -127,6 +126,7 @@ export default {
   }
 
   .contact {
+    padding-bottom: 4rem;
     display: flex;
     font-size: 1.5rem;
 
