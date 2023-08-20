@@ -26,29 +26,29 @@
             <div class="internal-links-mobile">
                 <router-link :to="{name: 'Home'}">
                     <div>
-                        <i class="mdi mdi-home icon"></i>
+                        <i class="mdi mdi-home icon internal-link"></i>
                     </div>
                 </router-link>
                 <router-link :to="{name: 'About'}">
                     <div>
-                        <i class="mdi mdi-account icon"></i>
+                        <i class="mdi mdi-account icon internal-link"></i>
                     </div>
                 </router-link>
                 <router-link :to="{name: 'Projects'}">
                     <div>
-                        <i class="mdi mdi-application-brackets icon"></i>
+                        <i class="mdi mdi-application-brackets icon internal-link"></i>
                     </div>
                 </router-link>
                 <router-link :to="{name: 'Resume'}">
                     <div>
-                        <i class="mdi mdi-script-text-outline icon"></i>
+                        <i class="mdi mdi-script-text-outline icon internal-link"></i>
                     </div>
                 </router-link>
             </div>
         </section>
         <section class="row">
             <div class="external-links-container gap-4">
-                <a target="_blank" href="https://www.linkedin.com/in/nathan-moehlmann-557431246/"><i class="mdi mdi-linkedin external-link"></i></a>
+                <a class="external-link" target="_blank" href="https://www.linkedin.com/in/nathan-moehlmann-557431246/"><i class="mdi mdi-linkedin"></i></a>
                 <a target="_blank" href="https://github.com/nmoehlmann"><i class="mdi mdi-github external-link"></i></a>
             </div>
         </section>
@@ -66,6 +66,15 @@ export default {
 
 
 <style lang="scss" scoped>
+
+    .internal-link {
+        transition: all 0.2s ease 0s;
+    }
+
+    .internal-link:hover {
+        animation-name: bounce;
+        color: #05D9FF;
+    }
 
     h1 {
         transition: 0.3s ease 0s;
@@ -107,10 +116,13 @@ export default {
     a:hover {
         transform: translateY(-8px)
     }
-
     a .external-link:hover {
+        transition: all 0.3s ease;
+    }
+
+    .external-link:hover {
         color: #05D9FF;
-        transition: all .3s ease;
+        transform: translateY(-10)
     }
     .internal-links-mobile {
         display: none;
@@ -139,6 +151,8 @@ export default {
             flex-direction: row;
             color: whitesmoke;
         }
+
+        
 
         .external-links-container {
             display: none;

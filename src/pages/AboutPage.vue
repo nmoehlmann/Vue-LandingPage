@@ -41,7 +41,7 @@
           <li>April 24, 2023 - July 28, 2023</li>
         </ul>
       </div>
-      <div class="col-6 experience slideInLeftExperience">
+      <div class="col-md-6 experience slideInLeftExperience">
         <p class="header">Experience</p>
         <p>CodeWorks</p>
         <ul class="experience-list">

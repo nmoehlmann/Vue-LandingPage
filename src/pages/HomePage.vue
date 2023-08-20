@@ -81,5 +81,9 @@ export default {
     .greeting {
       font-size: 3rem;
     }
+
+    .about-text {
+      padding-bottom: 2rem;
+    }
   }
 </style>

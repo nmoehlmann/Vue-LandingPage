@@ -71,6 +71,20 @@ form:invalid button[type="submit"] {
   }
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(0)
+  }
+
+  50% {
+    transform: translateY(5)
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .slideInLeft {
   animation-name: slideInLeft;
   animation-duration: 1s;
