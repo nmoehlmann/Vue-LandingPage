@@ -6,15 +6,15 @@
             </div>
         </section>
         <section class="row">
-            <div class="col-xxl-5 d-flex p-container slideInLeft">
-                <div class="compass-background">
-                    <div class="cooking-compass-container">
-                        <!-- testing -->
-                        <img class="cooking-compass" src="/cooking-compass.svg" alt="">
-                        <!-- <img class="cooking-compass" src="docs/assets/cooking-compass.svg" alt=""> -->
+                <div class="col-xxl-5 d-flex p-container slideInLeft selectable">
+                    <div class="compass-background">
+                        <div class="cooking-compass-container">
+                            <!-- testing -->
+                            <img class="cooking-compass" src="/cooking-compass.svg" alt="">
+                            <!-- <img class="cooking-compass" src="docs/assets/cooking-compass.svg" alt=""> -->
+                        </div>
                     </div>
                 </div>
-            </div>
             <div class="divider"></div>
             <div class="col-12 col-xxl-6 fadeIn">
                 <div class="header">
@@ -35,12 +35,14 @@
             </div>
         </section>
         <section class="row">
-            <div class="col-xxl-5 p-container slideInLeft">
-                <div class="allSpice-background">
-                    <div class="allSpice-logo-container">
-                        <p class="allSpice-logo">All Spice</p>
+            <div class="col-xxl-5 p-container slideInLeft selectable">
+                <a href="https://allspiceclient.onrender.com" target="_blank">
+                    <div class="allSpice-background">
+                        <div class="allSpice-logo-container">
+                            <p class="allSpice-logo">All Spice</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="divider"></div>
             <div class="col-12 col-xxl-6 fadeIn">
@@ -104,6 +106,10 @@ export default {
 
 
 <style lang="scss" scoped>
+
+    a {
+        all: unset;
+    }
 
     h1 {
         font-family: 'Raleway', sans-serif;
