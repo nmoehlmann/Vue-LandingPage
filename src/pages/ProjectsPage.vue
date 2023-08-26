@@ -1,8 +1,79 @@
 <template>
     <main class="container-fluid">
+        <section class="row mt-5">
+            <div class="col-xxl-5 p-container slideInLeft selectable">
+                <a href="https://keeprclient.onrender.com" target="_blank">
+                    <div class="keepr-background">
+                        <div class="keepr-logo-container">
+                            <img class="keepr-logo" src="/Keepr-logo.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divider"></div>
+            <div class="col-12 col-xxl-6 fadeIn">
+                <div class="header">
+                    <h1 class="">Keepr</h1>
+                </div>
+                <div class="underline"></div>
+                <article class="text-body">
+                    <h2 class="mb-4 text-light">Description</h2>
+                    <p>Keepr is an application that allows its users to view, save, and create vaults and keeps</p>
+                    <div class="underline"></div>
+                    <h2 class="text-light mb-4">Features</h2>
+                    <ul>
+                        <li>Create a keep with an image and description. Other people can save your keep into their own vault.</li>
+                        <li>Create a vault that can store keeps created by others or yourself.</li>
+                        <li>Make your vault private so others cant see it or the keeps stored inside.</li>
+                        <li>Edit your keeps, vaults, and even your own profile!</li>
+                    </ul>
+                    <div class="mt-4 d-flex justify-content-start">
+                        <div>
+                            <a class="external-site-link" target="_blank" href="https://keeprclient.onrender.com">Keepr Website</a>
+                        </div>
+                        <div>
+                            <a class="external-site-link" target="_blank" href="https://github.com/nmoehlmann/theFinale">Github Repo</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
         <section class="row">
-            <div class="col-12 header">
-                <h1>Projects</h1>
+            <div class="col-xxl-5 p-container slideInLeft selectable">
+                <a href="https://allspiceclient.onrender.com" target="_blank">
+                    <div class="allSpice-background">
+                        <div class="allSpice-logo-container">
+                            <p class="allSpice-logo">All Spice</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divider"></div>
+            <div class="col-12 col-xxl-6 fadeIn">
+                <div class="header">
+                    <h1 class="">All Spice</h1>
+                </div>
+                <div class="underline"></div>
+                <article class="text-body">
+                    <h2 class="mb-4 text-light">Description</h2>
+                    <p>Spice up your life by making and sharing recipes with others. If you like a recipe, favorite it and save it for later!</p>
+                    <div class="underline"></div>
+                    <h2 class="text-light mb-4">Features</h2>
+                    <ul>
+                        <li>Create your own recipes including ingredients, instructions, and pictures.</li>
+                        <li>Search specific recipes using the search bar.</li>
+                        <li>view and favorite created recipes.</li>
+                        <!-- <li>Use filter on homepage to view your own or favorited recipes</li> -->
+                    </ul>
+                    <div class="mt-4 d-flex justify-content-start">
+                        <div>
+                            <a class="external-site-link" target="_blank" href="https://allspiceclient.onrender.com">AllSpice Website</a>
+                        </div>
+                        <div>
+                            <a class="external-site-link" target="_blank" href="https://github.com/nmoehlmann/allSpice">Github Repo</a>
+                        </div>
+                    </div>
+                </article>
             </div>
         </section>
         <section class="row">
@@ -34,64 +105,6 @@
                 </article>
             </div>
         </section>
-        <section class="row">
-            <div class="col-xxl-5 p-container slideInLeft selectable">
-                <a href="https://allspiceclient.onrender.com" target="_blank">
-                    <div class="allSpice-background">
-                        <div class="allSpice-logo-container">
-                            <p class="allSpice-logo">All Spice</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="divider"></div>
-            <div class="col-12 col-xxl-6 fadeIn">
-                <div class="header">
-                    <h1 class="">All Spice</h1>
-                </div>
-                <div class="underline"></div>
-                <article class="text-body">
-                    <h2 class="mb-4 text-light">Description</h2>
-                    <p>Spice up your life by making and sharing recipes with others. If you like a recipe, favorite it and save it for later!</p>
-                    <div class="underline"></div>
-                    <h2 class="text-light mb-4">Features</h2>
-                    <ul>
-                        <li>Create your own recipes including ingredients, instructions, and pictures.</li>
-                        <li>Search specific recipes using the search bar.</li>
-                        <li>view and favorite created recipes.</li>
-                        <!-- <li>Use filter on homepage to view your own or favorited recipes</li> -->
-                    </ul>
-                </article>
-            </div>
-        </section>
-        <section class="row">
-            <div class="col-xxl-5 p-container slideInLeft">
-                <div class="keepr-background">
-                    <div class="keepr-logo-container">
-                        <img class="keepr-logo" src="/Keepr-logo.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="divider"></div>
-            <div class="col-12 col-xxl-6 fadeIn">
-                <div class="header">
-                    <h1 class="">Keepr</h1>
-                </div>
-                <div class="underline"></div>
-                <article class="text-body">
-                    <h2 class="mb-4 text-light">Description</h2>
-                    <p>Keepr is an application that allows its users to view, save, and create vaults and keeps</p>
-                    <div class="underline"></div>
-                    <h2 class="text-light mb-4">Features</h2>
-                    <ul>
-                        <li>Create a keep with an image and description. Other people can save your keep into their own vault.</li>
-                        <li>Create a vault that can store keeps created by others or yourself.</li>
-                        <li>Make your vault private so others cant see it or the keeps stored inside.</li>
-                        <li>Edit your keeps, vaults, and even your own profile!</li>
-                    </ul>
-                </article>
-            </div>
-        </section>
     </main>
 </template>
 
@@ -106,6 +119,23 @@ export default {
 
 
 <style lang="scss" scoped>
+
+    section {
+        margin-bottom: 4rem;
+    }
+
+    .external-site-link {
+        color: #05D9FF;
+        text-decoration: none;
+        margin-right: 2rem;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+
+    .external-site-link:hover {
+        color: #7FDFFF;
+        text-decoration: underline;
+    }
 
     a {
         all: unset;
