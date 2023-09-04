@@ -8,21 +8,31 @@
     </section>
     <section class="row">
       <article class="col-12 text-light bio fadeIn">
-        <p class="font-raleway">
+        <!-- <p class="font-raleway">
           I am a Software Developer with extensive experience in both front and backend. I love working on complex projects that require methodical planning and execution. Solving difficult problems is what Software Development is all about, and that's what I'm here for. Outside of coding, I enjoy playing piano, videogames, and working out.
+        </p> -->
+        <p class="font-raleway">
+          I am an aspiring full-stack software developer driven by a passion for crafting web
+          applications across diverse frameworks and programming languages. I am a quick
+          learner with a proven ability to adapt to new technologies and a track record of
+          developing innovative projects from conception to implementation.
         </p>
       </article>
     </section>
     <section class="row">
-      <div class="col-md-6 skills slideInLeftSkills">
-        <p class="header font-raleway">Knowledge</p>
+      <div class="col-md-6 skills slideInLeftSkills p-4">
+        <p class="header font-raleway">Proficient With</p>
         <li>Vue <i class="mdi mdi-vuejs"></i></li>
-        <li>Node <i class="mdi mdi-nodejs"></i></li>
-        <li>SQL <i class="mdi mdi-database-search"></i></li>
-        <li>C# <i class="mdi mdi-dot-net"></i></li>
+        <li>Node / Express <i class="mdi mdi-nodejs"></i></li>
+        <li>ASP.NET / C#</li>
         <li>HTML <i class="mdi mdi-language-html5"></i> / CSS <i class="mdi mdi-language-css3"></i></li>
+        <li>SQL <i class="mdi mdi-database-search"></i></li>
+        <li>MySQL <i class="mdi mdi-dolphin"></i></li>
+        <li>MSSQL <i class="mdi mdi-microsoft"></i></li>
+        <li>Bootstrap <i class="mdi mdi-bootstrap"></i> / Tailwind <i class="mdi mdi-tailwind"></i></li>
+        <li>Docker <i class="mdi mdi-docker"></i></li>
       </div>
-      <div class="col-md-6 text-light contact slideInLeftContact">
+      <div class="col-md-6 text-light contact slideInLeftContact p-4">
         <div>
           <p class="header font-raleway">Contact</p>
           <p><span class="fw-bold">Education:</span> Boise CodeWorks</p>
@@ -31,12 +41,12 @@
         </div>
       </div>
     </section>
-    <section class="row">
+    <section class="row mb-5">
       <div class="col-md-6 education slideInLeftEducation">
         <p class="header font-raleway">Education</p>
         <p>Boise CodeWorks</p>
         <ul class="education-list">
-          <li>Immersive Full Stack</li>
+          <li>Immersive Full Stack Software Development</li>
           <li>April 24, 2023 - July 28, 2023</li>
         </ul>
       </div>
@@ -44,9 +54,8 @@
         <p class="header font-raleway">Experience</p>
         <p>CodeWorks</p>
         <ul class="experience-list">
-          <li>Over 450 hours of hands on coding</li>
-          <li>Built a multitude of full stack applications</li>
-          <li>Created an application that talks to multiple external APIs and its own.</li>
+          <li>Designed and developed a variety of full-stack applications, showcasing versatility in designing functional and user-centric solutions.</li>
+          <li>Collaborated with teams to design and develop applications, fostering efficient teamwork and achieving project goals.</li>
         </ul>
       </div>
     </section>

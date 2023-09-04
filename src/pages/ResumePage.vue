@@ -1,6 +1,6 @@
 <template>
     <main>
-        <iframe class="resume vh-100" src="/Nathan'sResume.pdf" frameborder="0"></iframe>
+        <iframe class="resume vh-100" src="/Resume.pdf" frameborder="0"></iframe>
     </main>
 </template>
 
