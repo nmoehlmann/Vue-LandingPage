@@ -3,7 +3,7 @@
     <section class="row">
       <div class="col-xxl-4 img-container">
         <!-- <img class="img-fluid my-img" src="src/assets/img/me.png" alt=""> -->
-        <img class="img-fluid my-img" src="/meColored.jpg" alt="">
+        <img class="img-fluid my-img" src="/DSC06835copy.jpg" alt="">
       </div>
       <div class="col-xxl-8 d-flex flex-column text-body gap-4">
         <h1 class="greeting font-raleway"><span class="neon">N</span>athan <br> <span class="neon">M</span>oehlmann</h1>
@@ -46,6 +46,7 @@ export default {
 
   .my-img {
     border-radius: 20%;
+    aspect-ratio: 1/1;
   }
 
   @media(max-width: 1400px) {
